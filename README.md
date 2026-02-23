@@ -3,7 +3,7 @@
 - K. Naga Maneesh Reddy
 - ID: 700773566
 
-📌 Overview
+## 📌 Overview
 This repository contains my solutions and Python implementations for NLP Homework‑2, covering:
 - Naive Bayes document classification
 - Harms of classification
@@ -13,7 +13,8 @@ This repository contains my solutions and Python implementations for NLP Homewor
 - Confusion matrix evaluation
 - Python implementations for bigram models and evaluation metrics
 All code is written in Python and fully reproducible.
-📚 Training Corpus
+
+## 📚 Training Corpus
 The model is trained on the following sentences:
 `<s> I love NLP </s>`
 `<s> I love deep learning </s>`
@@ -23,7 +24,7 @@ The model is trained on the following sentences:
 
 These sentences form the basis for all unigram and bigram counts.
 
-🛠️ Features
+## 🛠️ Features
 Unigram & Bigram Counting
 The program extracts:
 - unigram_counts: total occurrences of each word
@@ -36,7 +37,7 @@ A function multiplies the bigram probabilities across a sentence to compute its 
 Model Comparison
 Two test sentences are evaluated to determine which one the model prefers.
 
-🚀 How It Works
+## 🚀 How It Works
 1. Counting
 The model scans the corpus and builds:
 - Unigram counts (e.g., I → 2, love → 2, deep → 2)
@@ -50,7 +51,7 @@ The model evaluates:
 - S1: `<s> I love NLP </s>`
 - S2: `<s> I love deep learning </s>`
 
-📊 Results
+## 📊 Results
 |  |  | 
 | `<s> I love NLP </s>` |  | 
 | `<s> I love deep learning </s>` |  | 
@@ -60,7 +61,7 @@ Conclusion
 The model prefers S1, because it has a higher cumulative probability.
 S2 contains more bigrams, and multiplying more probabilities (each ≤ 1) reduces the total score.
 
-📦 Included Python Code
+## 📦 Included Python Code
 The repository includes:
 - Unigram and bigram counting
 - MLE probability computation
@@ -68,7 +69,7 @@ The repository includes:
 - Sentence comparison logic
 All code is clean, readable, and ready to run.
 
-✔️ Summary
+## ✔️ Summary
 This project demonstrates:
 - How to build a statistical bigram language model
 - How to compute unigram and bigram counts
