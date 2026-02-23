@@ -1,8 +1,7 @@
 # NLP_HW-2
-#Student
+Student
 - K. Naga Maneesh Reddy
 - ID: 700773566
-
 
 ## 📌 Overview
 This repository contains my solutions and Python implementations for NLP Homework‑2, covering:
