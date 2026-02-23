@@ -15,9 +15,10 @@ This repository contains my solutions and Python implementations for NLP Homewor
 All code is written in Python and fully reproducible.
 📚 Training Corpus
 The model is trained on the following sentences:
-<s> I love NLP </s>
-<s> I love deep learning </s>
-<s> deep learning is fun </s>
+`<s> I love NLP </s>`
+`<s> I love deep learning </s>`
+
+`<s> deep learning is fun </s>`
 
 
 These sentences form the basis for all unigram and bigram counts.
@@ -46,13 +47,13 @@ If "I" appears 2 times and "I love" appears 2 times:
 P(\mathrm{love}\mid I)=\frac{2}{2}=1.0
 3. Sentence Evaluation
 The model evaluates:
-- S1: <s> I love NLP </s>
-- S2: <s> I love deep learning </s>
+- S1: `<s> I love NLP </s>`
+- S2: `<s> I love deep learning </s>`
 
 📊 Results
 |  |  | 
-| <s> I love NLP </s> |  | 
-| <s> I love deep learning </s> |  | 
+| `<s> I love NLP </s>` |  | 
+| `<s> I love deep learning </s>` |  | 
 
 
 Conclusion
