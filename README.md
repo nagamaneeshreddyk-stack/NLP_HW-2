@@ -3,6 +3,7 @@
 - K. Naga Maneesh Reddy
 - ID: 700773566
 
+
 ## 📌 Overview
 This repository contains my solutions and Python implementations for NLP Homework‑2, covering:
 - Naive Bayes document classification
